@@ -1,0 +1,1 @@
+{"uuid":"ac48012a-1f57-4fa5-9a53-d52c07377943","name":"TestNG.Annotations1.logout","children":["fe9a2b33-8902-4f30-9c89-11db2e358aec"],"description":"","befores":[],"afters":[{"name":"logout","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1740743307518,"stop":1740743307519}],"start":1740743307518,"stop":1740743307519}

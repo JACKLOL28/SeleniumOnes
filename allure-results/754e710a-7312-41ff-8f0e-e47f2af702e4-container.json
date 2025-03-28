@@ -1,0 +1,1 @@
+{"uuid":"754e710a-7312-41ff-8f0e-e47f2af702e4","name":"TestNG.Annotations1.login","children":["fe9a2b33-8902-4f30-9c89-11db2e358aec"],"description":"","befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1740743307333,"stop":1740743307340}],"afters":[],"start":1740743307332,"stop":1740743307341}

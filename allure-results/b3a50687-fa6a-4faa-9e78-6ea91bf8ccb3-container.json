@@ -1,0 +1,1 @@
+{"uuid":"b3a50687-fa6a-4faa-9e78-6ea91bf8ccb3","name":"TestNG.BeforeAfterclass","children":["aa37a248-daae-4807-a93d-17606e791710"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1740744541502,"stop":1740744541508}],"afters":[],"start":1740744541462,"stop":1740744541685}
