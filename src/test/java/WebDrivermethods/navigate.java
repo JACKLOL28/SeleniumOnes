@@ -13,5 +13,6 @@ public class navigate {
         driver.navigate().back();
         driver.navigate().forward();
         driver.navigate().refresh();
+
     }
 }

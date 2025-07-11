@@ -26,12 +26,14 @@ public class checkbo {
         List<WebElement> checkboxes = driver.findElements(By.xpath("//*[@type='checkbox']"));
 
 
-//        for(int i=0; i<checkboxes.size();i++){
+//
+//        for(int i=0; i<=checkboxes.size();i++){
 //
 //            checkboxes.get(i).click();
 //        }
 
-        //By enhanced for loop
+
+//        By enhanced for loop
 //        for(WebElement checbox:checkboxes){
 //            checbox.click();
 //        }
@@ -47,10 +49,10 @@ public class checkbo {
         for (int i=0; i<3;i++){
             checkboxes.get(i).click();
         }
-
-        //Now for Unseleting this elements
+//
+//        //Now for Unseleting this elements
         Thread.sleep(3000);
-
+//
         for (int i=0; i<3;i++){
             checkboxes.get(i).click();
         }

@@ -24,16 +24,20 @@ public class waitCommands {
 //        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
 
         //Explicit wait
-//        WebDriverWait mywait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        WebDriverWait mywait = new WebDriverWait(driver,Duration.ofSeconds(10));
 
-//        WebElement username = mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']")));
-//        username.sendKeys("Admin");
+        WebElement username = mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']")));
+        username.sendKeys("Admin");
+
 //
 //       WebElement password= mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='password']")));
 //        password.sendKeys("admin123");
 //
 //        WebElement clickbutton = mywait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@type='submit']")));
 //        clickbutton.click();
+
+
+       //Syntax for explicit wait
 
         //fluent wait
         Wait<WebDriver> flue= new FluentWait<WebDriver>(driver)

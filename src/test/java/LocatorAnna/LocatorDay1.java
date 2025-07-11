@@ -1,5 +1,6 @@
 package LocatorAnna;
 
+import io.qameta.allure.Links;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,12 +30,18 @@ public class LocatorDay1 {
 
 //        driver.findElement(By.linkText("Features")).click();
 
-        //4.Partial Link Text
-//        driver.findElement(By.partialLinkText("Down")).click();
+//        4.Partial Link Text
+        driver.findElement(By.partialLinkText("Down")).click();
 
         //Tagname and class se
 //        List<WebElement> links =driver.findElements(By.tagName("a"));
 //        System.out.println("The total links present are"+links.size());
+
+//To find the total number of links present in web element we would use
+        List<WebElement> links = driver.findElements(By.tagName("a"));
+
+        //To print it
+        System.out.println(links.size());
 
 
 

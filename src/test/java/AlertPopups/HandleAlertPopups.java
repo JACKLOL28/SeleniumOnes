@@ -19,9 +19,9 @@ public class HandleAlertPopups {
         WebDriverWait mywait = new WebDriverWait(driver,Duration.ofSeconds(10));
 
 
-//        driver.get("https://testautomationpractice.blogspot.com/");
+        driver.get("https://testautomationpractice.blogspot.com/");
 
-        //1.Handling the normal alert
+//        1.Handling the normal alert
 //        driver.findElement(By.id("alertBtn")).click();
 //
 //        Alert myalert = driver.switchTo().alert();

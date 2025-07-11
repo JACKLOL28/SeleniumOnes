@@ -18,18 +18,18 @@ public class Actionsmousewale {
         driver.get("https://testautomationpractice.blogspot.com/");
         driver.manage().window().maximize();
 
-        //Mouse hover actioncs
-//        WebElement pointme = driver.findElement(By.xpath("//button[contains(text(),'Point')]"));
-//        WebElement Laptops=driver.findElement(By.xpath("//div[@class='dropdown-content']//a[2]"));
-//
-//        //Creating actions class
-//        Actions act= new Actions(driver);
-//        act.moveToElement(pointme).moveToElement(Laptops).click().perform();
+//        Mouse hover actioncs
+        WebElement pointme = driver.findElement(By.xpath("//button[contains(text(),'Point')]"));
+        WebElement Laptops=driver.findElement(By.xpath("//div[@class='dropdown-content']//a[2]"));
 
-        //Right click
+//        Creating actions class
+        Actions act= new Actions(driver);
+        act.moveToElement(pointme).moveToElement(Laptops).click().perform();
+
+//        Right click
 //        driver.get("https://practice.expandtesting.com/context-menu");
 //        driver.manage().window().maximize();
-//
+
 //        WebElement rightbutton=driver.findElement(By.xpath("//div[@id='hot-spot']"));
 //        Actions act= new Actions(driver);
 //        act.contextClick(rightbutton).perform();
@@ -53,14 +53,14 @@ public class Actionsmousewale {
         //Slider actions
         //now to loocate the slider we need to locate the slider elemennt first
 
-        driver.navigate().to("https://www.jqueryscript.net/demo/Price-Range-Slider-jQuery-UI/");
-        Thread.sleep(2000);
-        WebElement Lslider = driver.findElement(By.xpath("//div[@id='slider-range']//span[1]"));
-        System.out.println(Lslider.getLocation());
-
-        Actions act = new Actions(driver);
-        act.dragAndDropBy(Lslider,300,251).perform();
-        System.out.println(Lslider.getLocation());
+//        driver.navigate().to("https://www.jqueryscript.net/demo/Price-Range-Slider-jQuery-UI/");
+//        Thread.sleep(2000);
+//        WebElement Lslider = driver.findElement(By.xpath("//div[@id='slider-range']//span[1]"));
+//        System.out.println(Lslider.getLocation());
+//
+//        Actions act = new Actions(driver);
+//        act.dragAndDropBy(Lslider,300,251).perform();
+//        System.out.println(Lslider.getLocation());
 
 
     }

@@ -21,12 +21,11 @@ public class Assignement1 {
         List<WebElement> links = driver.findElements(By.id("wikipedia-search-result-link"));
         System.out.println(links.size());
 
-//        for(WebElement clickingonLink:links){
+//        for (WebElement clickingonLink : links) {
 //            String getTextsofAlllinks = clickingonLink.getText();
 //            System.out.println(getTextsofAlllinks);
 //
-//            if(getTextsofAlllinks.equals("Selenium"))
-//            {
+//            if (getTextsofAlllinks.equals("Selenium")) {
 //                clickingonLink.click();
 //                Thread.sleep(3000);
 //            }
@@ -45,5 +44,7 @@ public class Assignement1 {
 
 
 
+        }
     }
-}
+
+

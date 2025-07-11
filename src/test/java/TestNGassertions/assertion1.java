@@ -71,6 +71,8 @@ public class assertion1 {
         System.out.println("Kuch nai chalega....");
 
         sa.assertAll();
+
     }
+
 }
 

@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
 
-public class Keyboardactions {
+public class                                                Keyboardactions {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
 

@@ -33,9 +33,8 @@ public class AyyoData1 {
         driver.findElement(By.id("username")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
         driver.findElement(By.id("submit")).click();
-        Thread.sleep(3000);
 
-        boolean TextOnLoginPage = driver.findElement(By.xpath("//*[text()=\"Congratulations student. You successfully logged in!\"]")).isDisplayed();
+        boolean TextOnLoginPage = driver.findElement(By.xpath("//strong[contains(text(),'Congratulations student. You successfully logged i')]")).isDisplayed();
 
         if (TextOnLoginPage) {
             Assert.assertTrue(true);
@@ -51,14 +50,14 @@ public class AyyoData1 {
         driver.quit();
     }
 
-    @DataProvider(name = "dp1",indices = {0,2})
+    @DataProvider(name = "dp1", indices = {0, 3})
     Object[][] logindata() {
-        return new Object[][] {
+        return new Object[][]{
 
                 {"john", "yeda"},
                 {"Jaikishan", "NewLearner"},
                 {"nameis", "12345"},
-                { "student", "Password123"}
+                {"student", "Password123"}
         };
     }
 }
